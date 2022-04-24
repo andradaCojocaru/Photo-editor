@@ -1,0 +1,24 @@
+//Cojocaru Andrada - Ioana 312 CA
+
+Functia LOAD primeste un fisier ce in functie de magic_word il va deschide
+fie in binar sau ascii, iar mai apoi va inchide fisierul
+Matricea va fi alocata dinamic
+
+Functia SELECTION stabileste daca parametrii dati sunt valizi si ii salveaza intr-o structura
+Functia SELECT ALL- sora mai mica a lui SELECTION va salva intreaga imagine
+
+Functia ROTATE roteste imaginea in functie de unghi - daca este valid
+
+Functia CROP taie imaginea in functie de parametrii primiti sau o lasa
+neschimbata (selectie totala)
+
+Functia GRAYSCALE aplica filtru peste selectia primita
+Functia SEPIA aplica filtru in functie de culori selectiei de imagine
+Cele 2 functii sunt valabile doar pentru imagini color
+
+Functia SAVE in functie de parametrul pe care il primeste de la tastatura
+salveaza fie in ascii(ascii), fie in binar
+
+Functia EXIT dezaloca memoria ramasa daca este cazul
+In main parsam string-ul de comenzi, iar mai apoi apelam functiile corespunzatoare
+
